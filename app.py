@@ -4,8 +4,8 @@ from minipdf import minimize_pdf
 
 
 def main():
-    st.title("PDF Minimizer")
-    st.write("Upload a PDF file and minimize its size to under 1MB")
+    st.title("המצמצם של חן")
+    st.write("צמצי את הקבצים נשמה")
 
     uploaded_file = st.file_uploader("Choose a PDF file", type="pdf")
 
